@@ -1,7 +1,7 @@
-play=input('Wanna start?y/n:')
+play=input('要開始或繼續請輸入y，若要結束請輸入n:')
 while(play=='y'):
-	animal=input("Input the kind of animal:")
-	temperature=input("Input the temperature:")
+	animal=input("輸入一個動物:")
+	temperature=input("輸入出生時的溫度:")
 	#print(type(animal),type(temperature))
 	temperature=int(temperature)
 	if animal=='松獅蜥':
