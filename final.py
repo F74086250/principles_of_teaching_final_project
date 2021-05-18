@@ -19,5 +19,5 @@ while(play=='y'):
 			print('主要為雄性')
 		else: 
 			print('文本中並未詳細說明')
-	play=input('Wanna start?y/n')
+	play=input('是否繼續?是的話請輸入y，若要結束請輸入n')
 print('finish!!')
